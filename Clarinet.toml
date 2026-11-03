@@ -1,0 +1,41 @@
+[project]
+name = "obelisk-yield"
+description = "Decentralized Bitcoin L2 Stacking Yield Stripping & Fixed-Yield Tokenization Protocol in Clarity on Stacks."
+authors = ["ZengLLQ <veneratesman@gmail.com>"]
+telemetry = false
+cache_dir = "./.cache"
+
+[contracts.sip-010-trait]
+path = "contracts/sip-010-trait.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.mock-token]
+path = "contracts/mock-token.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.obelisk-oracle]
+path = "contracts/obelisk-oracle.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.principal-token]
+path = "contracts/principal-token.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.yield-token]
+path = "contracts/yield-token.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.obelisk-vault]
+path = "contracts/obelisk-vault.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.yield-space-amm]
+path = "contracts/yield-space-amm.clar"
+clarity_version = 2
+epoch = 2.4
